@@ -1,4 +1,4 @@
-from django.db import models
+
 from django.db import models
 class Empleados(models.Model):
     cedula_empleados = models.IntegerField(max_length=10, blank=False, primary_key=True)
